@@ -2,29 +2,41 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-stopped_at: Completed 06-01-PLAN.md (Privacy manifest + validation tests)
-last_updated: "2026-03-21T20:25:51.416Z"
+status: complete
+stopped_at: Completed 06-03-PLAN.md (Onboarding + TestFlight prep)
+last_updated: "2026-08-14T00:00:00.000Z"
 progress:
-  total_phases: 7
-  completed_phases: 5
+  total_phases: 6
+  completed_phases: 6
   total_plans: 21
-  completed_plans: 20
+  completed_plans: 21
 ---
 
 # Project State
+
+## ⚠ RECONCILIATION NOTE (2026-08-14 squawk pass)
+
+The old frontmatter/body said Phase 06 was "EXECUTING" with plan 3 of 3 in progress (20/21
+plans complete). Verified against `.planning/phases/06-polish-testflight/` (06-01-SUMMARY.md,
+06-02-SUMMARY.md, and **06-03-SUMMARY.md all exist**) and `.planning/ROADMAP.md`'s own Phase 6
+checklist (06-01/02/03 all `[x]`): Phase 6, plan 3 (onboarding + TestFlight prep) is complete.
+That closes v1.0 at 21/21 plans, 6/6 phases. Git log confirms follow-on work after 06-03
+(TestFlight submission prep docs, gitignore, a type-check timeout fix) with no new GSD phase
+opened — the milestone itself has no separate MILESTONE-AUDIT doc in `.planning/milestones/`,
+so "v1.0 complete" here reflects the phase checklist, not a formal audit sign-off. Phase 999.1
+(ADS-B In, backlog) remains not started, as before.
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-03-20)
 
 **Core value:** A pilot can install the app, fly with it as their primary EFB, record their flight, and get an AI debrief afterward — all free, all on-device, no account required.
-**Current focus:** Phase 06 — polish-testflight
+**Current focus:** v1.0 complete (Phase 06 polish-testflight closed out)
 
 ## Current Position
 
-Phase: 06 (polish-testflight) — EXECUTING
-Plan: 3 of 3
+Phase: 06 (polish-testflight) — Complete
+Plan: 3 of 3 complete
 
 ## Performance Metrics
 

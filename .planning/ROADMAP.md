@@ -130,9 +130,15 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 1. Foundation + Navigation Core | 7/7 | Complete | 2026-03-21 |
 | 2. Profiles + Flight Planning | 3/3 | Complete | 2026-03-21 |
 | 3. Flight Recording Engine | 3/3 | Complete | 2026-03-21 |
-| 4. AI Debrief + Logbook | 0/3 | Planned | - |
-| 5. Track Replay | 0/2 | Planned | - |
-| 6. Polish + TestFlight | 2/3 | In Progress|  |
+| 4. AI Debrief + Logbook | 3/3 | Complete | - |
+| 5. Track Replay | 2/2 | Complete | - |
+| 6. Polish + TestFlight | 3/3 | Complete | - |
+
+<!-- 2026-08-14 squawk pass: this table previously showed phases 4 and 5 as 0/N "Planned" and
+phase 6 as 2/3 "In Progress", contradicting the Phase Details checklists above (all plans [x])
+and .planning/phases/06-polish-testflight/06-03-SUMMARY.md (confirms 06-03 is done). Corrected
+to match the checklists. Exact completion dates for phases 4-6 were not individually re-derived
+from git log. -->
 
 ---
 
