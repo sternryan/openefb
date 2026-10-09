@@ -103,7 +103,7 @@ efb-212/
 | File | Role |
 |------|------|
 | `PRD.md` | **Source of truth** — full product spec, architecture, data models, sprint plan |
-| `CLAUDE.md` | This file — agent instructions and project conventions |
+| `AGENTS.md` | This file — agent instructions and project conventions |
 | `efb_212App.swift` | App entry point (will hold AppState injection) |
 | `Core/AppState.swift` | Global state coordinator — modify with care, shared across all views |
 | `Data/AviationDatabase.swift` | GRDB aviation database — airports, navaids, airspace |
